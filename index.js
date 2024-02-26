@@ -53,6 +53,9 @@ function restar(num1, num2) {
         }
         return resultado;
     }}
+    function raizCuadrada(num) {
+        return Math.sqrt(num)
+    }
     
   // Función principal del programa
   function calculadora() {
