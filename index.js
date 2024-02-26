@@ -43,6 +43,17 @@ function restar(num1, num2) {
     }
     res *=i
   }
+  function exponente(base,exponencial){
+    if (exponencial == 0){
+        return1;
+    } else {
+        var resultado =1;
+        for (var i =0; i <exponencial; i++){
+            resultado *= base;
+        }
+        return resultado;
+    }}
+    
   // Función principal del programa
   function calculadora() {
     var opcion = prompt(
